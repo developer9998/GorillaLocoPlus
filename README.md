@@ -1,0 +1,2 @@
+# GorillaLocoPlus
+ GorillaLoco+ (or GorillaLocoPlus) is a Unity Project with Gorilla Tag locomotion based off of GorillaLocomotion created by Kerestell (or Lemming). The locomotion used in GorillaLoco+ is an update of the locomotion in Gorilla Tag which is much more polished and introduces more features such as slippery surfaces and tap sounds. The project for GorillaLoco+ is already ready for Virtual Reality for Oculus/Meta and Valve index devices, and comes with a test scene for the locomotion.
