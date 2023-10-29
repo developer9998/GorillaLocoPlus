@@ -2231,10 +2231,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4818827953612837350, guid: 927331e79634d754a8d0a4d04db3074d, type: 3}
-      propertyPath: headCollider
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6316551577937071802, guid: 927331e79634d754a8d0a4d04db3074d, type: 3}
       propertyPath: m_Name
       value: Gorilla Rig
