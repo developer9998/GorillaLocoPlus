@@ -679,7 +679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turnParent: {fileID: 1517691856814428648}
   headFollower: {fileID: 5684953825887019794}
-  headCollider: {fileID: 0}
+  headCollider: {fileID: 2808528670384047447}
   bodyCollider: {fileID: 1892814160305940161}
   leftFollower: {fileID: 4127331139502520110}
   leftController: {fileID: 2617968146948338760}
