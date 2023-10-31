@@ -188,7 +188,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920020643227422156}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a3bed59973ce620458b93f2779de87e3, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -251,7 +251,6 @@ GameObject:
   - component: {fileID: 1545495205469332288}
   - component: {fileID: 6185236098343381074}
   - component: {fileID: 6028313544084207021}
-  - component: {fileID: 2808528670384047447}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Untagged
@@ -324,27 +323,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &2808528670384047447
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2404814780891380450}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5000002
-  m_Center: {x: -0.00000047683716, y: 0, z: -0.0000009536743}
 --- !u!1 &2882764721955668889
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,7 +411,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -486,6 +464,7 @@ GameObject:
   - component: {fileID: 5584902556177450903}
   - component: {fileID: 1215675255119531868}
   - component: {fileID: 8839650598331736191}
+  - component: {fileID: 3615153437702538649}
   m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -631,6 +610,27 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!135 &3615153437702538649
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5420152399587714592}
+  m_Material: {fileID: 13400000, guid: a3bed59973ce620458b93f2779de87e3, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.14
+  m_Center: {x: -0.00000047683716, y: 0, z: -0.0000009536743}
 --- !u!1 &6035475030253116232
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turnParent: {fileID: 1517691856814428648}
   headFollower: {fileID: 5684953825887019794}
-  headCollider: {fileID: 2808528670384047447}
+  headCollider: {fileID: 3615153437702538649}
   bodyCollider: {fileID: 1892814160305940161}
   leftFollower: {fileID: 4127331139502520110}
   leftController: {fileID: 2617968146948338760}
@@ -1029,7 +1029,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1170,7 +1170,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1299,7 +1299,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.9
       inSlope: 0
       outSlope: 0
       tangentMode: 0
